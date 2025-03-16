@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can You Remember These Mnemonics? Quiz</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Games & Quizzes</a>
+        </div>
+    </nav>
+
+    
+    <div class="quiz-container" style="background-image: url('background.jpg'); background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <div class="card text-center p-4" style="max-width: 400px; background: white; border-radius: 10px;">
+            <span class="badge bg-primary">Science</span>
+            <h2 class="mt-3">Can You Remember These Mnemonics? Quiz</h2>
+            <button id="start-btn" class="btn btn-primary mt-3" onclick="startQuiz()">Start</button>
+            <div class="mt-3">
+                <span>14 Questions</span> &nbsp; | &nbsp; 
+                <span>Timer Bonus <input type="checkbox"></span>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <p><strong>History at your fingertips</strong> – Sign up here to see what happened On This Day, every day in your inbox!</p>
+            <input type="email" placeholder="Enter your email" class="footer-input">
+            <button class="btn btn-primary">Subscribe</button>
+            <p class="footer-text">By signing up for this email, you are agreeing to news, offers, and information. <a href="#">Privacy Notice</a>.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+            <p>&copy; 2025 Encyclopaedia Britannica, Inc.</p>
+        </div>
+
+    <script>
+        function startQuiz() {
+            window.location.href = "quiz.html"; 
+        }
+    </script>
+
+</body>
+</html>
